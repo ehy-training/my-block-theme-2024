@@ -1,6 +1,49 @@
 /*
 Theme Name: My Block Theme 2024
-Version: 1.1
+Version: 1.2
 Author: Enno Hyttrek
 */
 
+
+
+/*---------------------
+LAYOUT
+---------------------*/
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em 16px;
+}
+
+.home-container,
+.main-content {
+    min-height: 70vh;
+}
+
+
+/*---------------------
+COLOR & STYLE
+---------------------*/
+
+body {
+      background: hsl(200,21%,13%);
+}
+
+/*.container {
+    background: hsl(200,21%,42%);
+}*/
+
+.main-header {
+    background: hsl(200,21%,55%);
+} 
+
+.home-container,
+.main-content {
+    background: hsl(200,5%,97%);
+} 
+
+.main-footer {
+    color: hsl(200,5%,97%);
+}
